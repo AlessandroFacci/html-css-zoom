@@ -22,3 +22,9 @@ main {
   margin: 0 auto;
   border: 2px solid white;
 }
+
+.pic {
+  width: calc(100% / 7);
+  height: 115px;
+  border: 1px dashed white;
+}
