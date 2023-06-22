@@ -54,7 +54,16 @@ main {
   border: 1px dashed white;
   background-image: url(https://picsum.photos/seed/picsum/180/130);
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  position: relative;
+}
+
+main span {
+  color: white;
+  padding: 3px 6px;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
 }
 
 footer {
