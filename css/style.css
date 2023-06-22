@@ -44,11 +44,20 @@ footer {
   justify-content: space-between;
 }
 
-.f-box1,
-.f-box2,
+.f-box1 {
+  height: 50px;
+  min-width: 150px;
+  border: 1px solid white;
+}
+
+.f-box2 {
+  height: 50px;
+  min-width: 600px;
+  border: 1px solid white;
+}
 .f-box3 {
   height: 50px;
-  min-width: 80px;
+  min-width: 150px;
   border: 1px solid white;
 }
 
@@ -61,11 +70,11 @@ footer {
 .flex-column {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+/* .arrow {
+  display: inline;
+  text-align: center;
+} */
