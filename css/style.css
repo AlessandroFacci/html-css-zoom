@@ -15,3 +15,10 @@ nav {
   color: white;
   padding: 10px;
 }
+
+main {
+  width: 1350px;
+  min-height: 600px;
+  margin: 0 auto;
+  border: 2px solid white;
+}
