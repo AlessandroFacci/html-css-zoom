@@ -35,6 +35,8 @@ a {
   border-radius: 2px;
 }
 
+/* main */
+
 main {
   display: flex;
   align-content: flex-start;
@@ -50,6 +52,9 @@ main {
   height: 115px;
   margin: 5px;
   border: 1px dashed white;
+  background-image: url(https://picsum.photos/seed/picsum/180/130);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
 }
 
 footer {
