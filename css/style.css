@@ -17,6 +17,9 @@ nav {
 }
 
 main {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
   width: 1350px;
   min-height: 600px;
   margin: 0 auto;
@@ -24,7 +27,8 @@ main {
 }
 
 .pic {
-  width: calc(100% / 7);
+  width: calc(100% / 7 - 10px);
   height: 115px;
+  margin: 5px;
   border: 1px dashed white;
 }
