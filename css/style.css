@@ -9,11 +9,30 @@ body {
   background-color: black;
 }
 
+/* HEADER */
+
 nav {
   width: 100vw;
   text-align: end;
   color: white;
   padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  background-color: #4a4a4a;
+  font-size: 11px;
+  border-radius: 2px;
+}
+
+.nav-icon {
+  font-size: 12px;
+  padding: 3px;
+  background-color: #4a4a4a;
+  color: white;
+  border-radius: 2px;
 }
 
 main {
