@@ -8,3 +8,10 @@ body {
   height: 100vh;
   background-color: black;
 }
+
+nav {
+  width: 100vw;
+  text-align: end;
+  color: white;
+  padding: 10px;
+}
