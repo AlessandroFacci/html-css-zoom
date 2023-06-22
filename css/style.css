@@ -32,3 +32,10 @@ main {
   margin: 5px;
   border: 1px dashed white;
 }
+
+footer {
+  width: 100sw;
+  height: 70px;
+  background-color: #222222;
+  margin-top: 30px;
+}
