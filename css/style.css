@@ -43,15 +43,13 @@ main {
   flex-wrap: wrap;
   width: 1350px;
   min-height: 600px;
-  margin: 0 auto;
-  border: 2px solid white;
+  margin: 20px auto 0 auto;
 }
 
 .pic {
   width: calc(100% / 7 - 10px);
   height: 115px;
   margin: 5px;
-  border: 1px dashed white;
   background-image: url(https://picsum.photos/seed/picsum/180/130);
   background-size: cover;
   position: relative;
